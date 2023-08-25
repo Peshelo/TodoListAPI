@@ -15,14 +15,12 @@ Method: `POST`
 
 #### Sample request body
 ```JSON
-[
   {
     "id": 1,
     "title": "Title",
     "description": "Description",
     "dateTime": "2023-10-31T05:00"
   }
-]
 ```
 Status: `200`
 
