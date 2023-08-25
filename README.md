@@ -10,6 +10,21 @@ This is a **Springboot Application** that uses CRUD operations. It stores data o
 
 ## API Reference
 
+### Get all todo list items: `/api/v1/todo`
+Method: `POST`
+
+#### Sample request body
+```JSON
+[
+  {
+    "id": 1,
+    "title": "Title",
+    "description": "Description",
+    "dateTime": "2023-10-31T05:00"
+  }
+]
+```
+Status: `200`
 
 ### Get all todo list items: `/api/v1/todo`
 Method: `GET`
@@ -25,7 +40,7 @@ Method: `GET`
   }
 ]
 ```
-Status: `200`
+Status: `201`
 
 ### Get todo item by id: `/api/v1/todo/{id}`
 Method: `GET`
