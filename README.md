@@ -22,7 +22,7 @@ Method: `POST`
     "dateTime": "2023-10-31T05:00"
   }
 ```
-Status: `200`
+Status: `201`
 
 ### Get all todo list items: `/api/v1/todo`
 Method: `GET`
@@ -38,7 +38,7 @@ Method: `GET`
   }
 ]
 ```
-Status: `201`
+Status: `200`
 
 ### Get todo item by id: `/api/v1/todo/{id}`
 Method: `GET`
