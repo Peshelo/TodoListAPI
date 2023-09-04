@@ -57,7 +57,7 @@ Method: `GET`
 
 Http Status:`200`
 
-### Update todo item by id: `/api/v1/todo/{id}`
+### Delete todo item by id: `/api/v1/todo/{id}`
 Method: `DELETE`
 
 #### Sample request Endpoint URL `/api/v1/todo/1
