@@ -55,14 +55,33 @@ Method: `GET`
   }
 ```
 
-Http Status:`200`
+Http Status:`204`
+
+### Update todo item by id: `/api/v1/todo/{id}`
+Method: `PUT`
+
+#### Sample request Endpoint URL `/api/v1/todo/1
+
+Status: `204`
+
+#### Sample request body
+```JSON
+  {
+    "id": 1,
+    "title": "Title",
+    "description": "Description",
+    "dateTime": "2023-10-31T05:00"
+  }
+```
+
+Http Status: `204`
 
 ### Delete todo item by id: `/api/v1/todo/{id}`
 Method: `DELETE`
 
 #### Sample request Endpoint URL `/api/v1/todo/1
 
-Status: `200`
+Status: `204`
 
 #### Sample request body
 ```JSON
